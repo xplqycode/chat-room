@@ -44,6 +44,6 @@ public class TestBean {
     @Test
     public void test() {
         helloSpring.test();
-        log.info("hahahsa");
+        log.info("hahahsda");
     }
 }
