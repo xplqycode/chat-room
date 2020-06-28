@@ -1,6 +1,5 @@
 package com.pxu.chat.server;
 
-import com.pxu.chat.server.Test.HelloSpring;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -38,12 +37,8 @@ import javax.annotation.Resource;
 @Slf4j
 public class TestBean {
 
-    @Resource
-    HelloSpring helloSpring;
-
     @Test
     public void test() {
-        helloSpring.test();
-        log.info("hahahsda");
+
     }
 }
